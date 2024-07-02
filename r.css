@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    height: 50px;
+}
+nav h1{
+    color:white;
+    display:flex;
+    justify-content:center;
+    
+
+}
+.menu{
+    color: gray;
+    cursor: pointer;
+    display:flex;
+    gap: 5px;
+    justify-content:center;
+   
+}
+.home{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.menu p:hover{
+    color: white;
+}
+
+.a,.b,.c,.d{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+    margin: 5px;
+    margin-bottom: 50px;
+    img{
+        height: 220px;
+        margin-bottom: 20px;
+    }
+    .more{
+        display: block;
+        width: 96.6%;
+        height: 18px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        padding: 4px;
+        margin-top: 4px;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: rgb(40, 41, 40);
+        color:rgb(219, 219, 219);
+    }  
+}
+.products{
+    text-align: center;
+    margin-top:40px;
+    padding: 10px;
+
+}
+.about{
+    text-align: center;
+}
+h2{
+    margin-bottom: 10px;
+}
+.call h1{
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.call{
+    background-color: black;
+    
+}
+.detail,td{
+    color: white;
+    margin-right: 10px;
+    padding: 3px;
+}
+.detail-button{
+
+}
+.call_table{
+    /* margin-left: auto; */
+    margin: auto;
+}
+.t-button{
+    display: flex;
+    justify-content: center;
+}
